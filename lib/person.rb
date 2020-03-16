@@ -4,5 +4,6 @@ class Person
     if attributes
       attributes.each do |k,v|
         self.send
- 
+  end
+ end
 end
